@@ -1,4 +1,29 @@
 # Changelog
+## 3.20.5 - September 6, 2022
+* [Bug] MSA - labels don't line up with sequences [PR #381](https://github.com/BV-BRC/bvbrc_website/pull/381)
+
+## 3.20.4 - September 2, 2022
+* [Bug] Fixed anchorByGenome in most cases [PR #380](https://github.com/BV-BRC/bvbrc_website/pull/380)
+
+## 3.20.3 - September 1, 2022
+* [Bug] Fix: enable to display the metadata for private genomes/features on the tree viewer [PR #379](https://github.com/BV-BRC/bvbrc_website/pull/379)
+
+## 3.20.2 - August 31, 2022
+* [Bug] Fix for viewing pdfs. Fix for phyloxml being changeable. [PR #378](https://github.com/BV-BRC/bvbrc_website/pull/378)
+
+## 3.20.1 - August 29, 2022
+* [UI] Update Services Menu with Protein Family Sorter and Comparative Pathway [Commit #c11d7c1](https://github.com/BV-BRC/bvbrc_website/commit/c11d7c1bf73edea6f364b7799a0aca7e665a3066)
+
+## 3.20.0
+* [Release] Production build
+
+## 3.19.4 - August 26, 2022
+* [Minor] Workspace icon tweak [Commit #058055c](https://github.com/BV-BRC/bvbrc_website/commit/058055cf45c8d5834b867c8ff0d530117f2a7f92)
+
+## 3.19.3
+* [Minor] Revert Fastq [Commit #6395270](https://github.com/BV-BRC/bvbrc_website/commit/6395270262c085066b560b733a3281c39a31d92a)
+* [Enhancement] Update Workspace icons for comparative results [Commit #4dfd8db](https://github.com/BV-BRC/bvbrc_website/commit/4dfd8db36a547d4611683c448eef7391298a9eb9)
+
 ## 3.19.2 - August 24, 2022
 * [Feature] Allow keyboard ctrl-c or command-c to copy selected items [PR #371](https://github.com/BV-BRC/bvbrc_website/pull/371)
 * [Bug] Fix apply filter on the GenomeList view [PR #372](https://github.com/BV-BRC/bvbrc_website/pull/372)
