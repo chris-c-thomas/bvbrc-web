@@ -27,7 +27,7 @@ define([
     pageTitle: 'Fastq Utilities',
     libraryData: null,
     defaultPath: '',
-    startingRows: 12,
+    startingRows: 22,
     initConditions: 5,
     maxConditions: 5,
     hostGenomes: {
