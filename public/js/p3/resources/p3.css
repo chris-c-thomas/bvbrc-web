@@ -23,7 +23,9 @@
 @import url("./SearchResults.css");
 @import url("./DataItemFormatter.css");
 @import url("./D3StackedBarChart.css");
-@import url("bv-brc.css");
+/* @import url("bv-brc.css"); */
+@import url("bv-brc-responsive.css");
+@import url("bv-brc-header.css");
 @import url("./dlp.css");
 @import url("./help.css");
 @import url("webpage.css");

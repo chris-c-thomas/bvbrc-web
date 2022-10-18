@@ -1,0 +1,63 @@
+/* Root Variables */
+:root {
+  --main-text: #252525;
+  --main-text-light: #ffffff;
+
+  --main-link: #5375b9;
+  --alt-link: #111111;
+
+
+
+  --patric-blue: #2c5776;
+  --vipr-yellow: #f1bf48;
+  --main-blue: #5375b9;
+
+  --blue: #015994;
+  --blue-tint: #e5eef4;
+  --blue-shade: #004776;
+  --green: #009190;
+
+  --main-bg: #f2f2f2;
+  --white-bg: #ffffff;
+  --blue-light-bg: #e5eef4;
+  --green-light-bg: #e5f4ee;
+  --gray-bg: #e3e3e3;
+
+  --button-blue: var(--blue);
+
+  --border-gray: #a0a0a0;
+  --border-blue: var(--blue);
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
