@@ -1,12 +1,17 @@
 #!/usr/bin/env node
-var debug = require('debug')('p3-web');
-var app = require('../app');
-var conf = require('../config');
+var debug = require("debug")("p3-web");
+var app = require("../app");
+var conf = require("../config");
+var path = require("path");
 
-debug('Launching p3-www...');
+debug("Launching p3-www...");
 
-app.set('port', conf.get('http_port') || 3000);
+app.use("/sitemap.xml", function (req, res) {
+  res.sendFile(path.join(__dirname, "../sitemap.xml"));
+});
 
-var server = app.listen(app.get('port'), function () {
-  debug('Express server listening on port ' + server.address().port);
+app.set("port", conf.get("http_port") || 3000);
+
+var server = app.listen(app.get("port"), function () {
+  debug("Express server listening on port " + server.address().port);
 });

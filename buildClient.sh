@@ -1,4 +1,4 @@
-#!/bin/sh     
+#!/bin/sh
 
 maxParam=""
 if [ -f /proc/cpuinfo ] ; then
@@ -11,3 +11,6 @@ fi
 cd public/js/
 ./util/buildscripts/build.sh --profile ./release.profile.js --release  $maxParam
 cd ../../
+
+# Copy sitemap.xml to release folder
+cp sitemap.xml public/js/release/p3/sitemap.xml
