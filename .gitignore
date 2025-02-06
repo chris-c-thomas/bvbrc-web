@@ -1,3 +1,161 @@
+# OS generated files (all platforms)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+*.lnk
+
+# Compiled source code
+*.obj
+*.o
+*.class
+*.exe
+*.dll
+*.out
+*.app
+*.xap
+*.suo
+*.sdf
+*.sln
+*.opensdf
+*.idb
+*.pdb
+
+# Logs and temporary files (all platforms)
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+*.bak
+# IntelliJ IDEA
+.idea/
+# VS Code
+.vscode/
+# Eclipse
+.metadata/
+# NetBeans
+nbproject/
+# Rider
+.idea.rider/
+
+# Node.js and npm
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+.pnp.*
+
+# General files that should be ignored in most JS projects
+.env # NEVER commit this!
+.cache
+.history
+*.lock
+*.tgz
+*.tar.gz
+*.zip
+# dist/ # or build/ or public/ if you have a build process
+# build/
+# public/
+*.map  # Source maps (often large) - consider if you need them in the repo
+*.d.ts # TypeScript declaration files (often large) - consider if you need them in the repo
+
+# Specific to some frameworks/tools
+.angular-cli.json
+angular.json
+karma.conf.js
+protractor.conf.js
+webpack.config.js
+vite.config.js
+.eslintcache
+.stylelintcache
+.prettiercache
+.nyc_output
+coverage/
+
+# Personal files (adjust as needed)
+# .secret* # Sensitive keys, passwords, etc.
+# my-private-notes.txt
+
+# Deployment-related files
+.ebextensions/ # AWS Elastic Beanstalk
+.platform/ # Platform specific configuration files
+config/ # Configuration files - be careful about what you commit here!
+
+# Files that might be in your project, but shouldn't be tracked
+.gitattributes
+.gitignore
+
+# Example of a specific file you might want to ignore
+config.js # If it contains sensitive data or environment-specific settings
+
+# For projects using Docker
+.dockerignore
+Dockerfile.prod # Or other environment-specific Dockerfiles
+
+# For projects using Kubernetes
+.kube/
+
+# For projects using serverless functions
+.serverless/
+
+# For projects with a Python backend (adjust as needed)
+__pycache__/
+*.pyc
+
+# For projects with a Ruby backend (adjust as needed)
+.bundle
+vendor/bundle
+
+# For projects using SvelteKit
+.svelte-kit
+
+# For projects using Next.js
+.next/
+
+# For projects using Nuxt.js
+.nuxt/
+
+# For projects using Gatsby
+.cache/
+public/
+
+# For projects using Parcel
+.parcel-cache
+
+# For projects using Astro
+.astro
+
+# For projects using Remix
+.cache/
+
+# For projects using SolidStart
+dist/
+
+# For projects using Qwik
+.qwik/
+
+# For projects using Stencil
+www/
+
+# For projects using Eleventy
+.eleventycache
+
+# For projects using Deno
+.deno
+
+# For projects using Bun
+.bun
+
+# For projects using pnpm
+.pnpm-store
+
+# For projects using Rush
+common/temp/
+
+# -----------------------------
+
 p3-web.conf
 node_modules/
 *.swp
@@ -25,3 +183,4 @@ jest.config.json
 gulpfile.js
 .eslintrc.json
 /public/js/p3/widget/UserDetails.js
+/public/js/p3/dojox/
