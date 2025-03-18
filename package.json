@@ -30,7 +30,7 @@
     "express": "^4.19.2",
     "express-formidable": "^1.2.0",
     "feedparser": "^2.2.10",
-    "flag-icons": "^7.2.1",
+    "flag-icons": "^7.3.2",
     "formidable": "^2.1.2",
     "http-proxy": "^1.18.1",
     "httpntlm": "^1.8.13",
