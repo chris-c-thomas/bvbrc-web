@@ -108,7 +108,7 @@ NTUSER.INI
 .nfs*
 .lost+found/
 
-## shell configs, history, etc
+### shell configs, history, etc
 # bash
 .bash_history
 .bash_logout
@@ -124,20 +124,19 @@ NTUSER.INI
 .zlogin
 .zlogout
 
-#fish
+# fish
 .fish_history
 .fishrc
 .config/fish/fish_history
 .config/fish/fish_variables
 
-#misc
+# misc
 .cshrc
 .tcshrc
 .kshrc
 .mkshrc
 .sh_history
-
-# other terminal
+ teminal
 .screenrc
 .tmux.conf
 .terminfo
@@ -146,20 +145,20 @@ NTUSER.INI
 .Xresources
 .Xdefaults
 
-# build
+### build
 dist/
 build/
 public/js/release/
 public/video/
 public/js/release/build-report.txt
 
-# testing & coverage
+### testing & coverage
 coverage/
 jest.config.js
 intern.js
 
-# formatting & linting
-# TODO: verify and uncomment to maintain consistency
+### formatting & linting
+### keep commented to maintain consistency
 # .eslintrc.json
 # .eslintignore
 #.prettierrc
@@ -168,8 +167,11 @@ intern.js
 #.htmlhintrc
 #.jshintrc
 #.editorconfig
+# jest.config.json
+# gulpfile.js
+# gulpified
 
-# temp files & caches
+### temp files & caches
 .pnp.*
 .pnpm-store/
 .cache/
@@ -182,9 +184,9 @@ out/
 .nyc_output/
 node_repl_history
 
-# misc
-gulpfile.js
-gulpified
+### misc
+
 test/
 src/
 /public/js/p3/widget/UserDetails.js
+dump.rdb
