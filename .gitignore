@@ -1,28 +1,190 @@
-p3-web.conf
+### BV-BRC: .gitignore
+### GitHub: https://github.com/BV-BRC/BV-BRC-Web
+
+### package manager files:
+# - ignore (temporarily uncomment) if needed for dev/testing or other edge cases only
+# - don't ignore (keep commented) the rest of the time
+# - critical to maintaining identical web app builds between developers, environments, containers, etc
+
+### npm
+# package-lock.json <--- TODO: verify a new package-lock.json for BV-BRC; then uncomment
 node_modules/
-*.swp
-.DS_Store
-dump.rdb
-npm-debug.log
-public/js/release/build-report.txt
-public/js/release/
-.idea/
-.fleet/
+npm-debug.log*
+
+### pnpm
+# pnpm-lock.yaml
+.pnpm/
+.pnpm-store/
+pnpm-debug.log*
+
+### yarn
+# yarn.lock
+.pnp.*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/patches/
+yarn-debug.log*
+yarn-error.log*
+
+### turbo (turborepo & turbopack)
+#turbo.json
+.turbo/
+.turbopack/
+turbo.log
+
+### Nx
+# nx.json
+# workspace.json
+.nx/
+
+### Lerna
+lerna-debug.log*
+
+### misc logs
+*.log
+
+# brc configs
+p3-web.conf
+p3-web.dev.conf
+p3-web.test.conf
+p3-web.www.conf
+p3-web.alpha.conf
+p3-web.beta.conf
+p3-web.prod.conf
+p3-web.*.conf
+
+# env variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.env
+.env.development
+.env.test
+.env.production
+.env.*
+!.env.example
+
+# pm2
+ecosystem.config.js
+
+# editor & ide
 .vscode/
-public/video/
-yarn.lock
-.htmlhintrc
-coverage
-.stylelintrc.json
-.editorconfig
-.eslintignore
-gulpified
-gulpfile.js
-src/
-test/
-intern.js
-jest.config.json
-gulpfile.js
-.eslintrc.json
-/public/js/p3/widget/UserDetails.js
+.idea/
+.zed/
+.fleet/
+*.swp
+*.sublime-workspace
+*.sublime-project
 .qodo
+CLAUDE.md
+
+
+## OS specific-ish
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+ntuser.dat
+NTUSER.DAT*
+NTUSER.INI
+
+# wsl
+.wslconfig
+.wslg/
+
+# linux
+*~
+.nfs*
+.lost+found/
+
+## shell configs, history, etc
+# bash
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.profile
+.inputrc
+
+# zsh
+.zsh_history
+.zshrc
+.zprofile
+.zlogin
+.zlogout
+
+#fish
+.fish_history
+.fishrc
+.config/fish/fish_history
+.config/fish/fish_variables
+
+#misc
+.cshrc
+.tcshrc
+.kshrc
+.mkshrc
+.sh_history
+
+# other terminal
+.screenrc
+.tmux.conf
+.terminfo
+.dir_colors
+.Xauthority
+.Xresources
+.Xdefaults
+
+# build
+dist/
+build/
+public/js/release/
+public/video/
+public/js/release/build-report.txt
+
+# testing & coverage
+coverage/
+jest.config.js
+intern.js
+
+# formatting & linting
+# TODO: verify and uncomment to maintain consistency
+# .eslintrc.json
+# .eslintignore
+#.prettierrc
+#.prettierignore
+#.stylelintrc.json
+#.htmlhintrc
+#.jshintrc
+#.editorconfig
+
+# temp files & caches
+.pnp.*
+.pnpm-store/
+.cache/
+.parcel-cache/
+.next/
+out/
+*.pid
+*.seed
+*.gz
+.nyc_output/
+node_repl_history
+
+# misc
+gulpfile.js
+gulpified
+test/
+src/
+/public/js/p3/widget/UserDetails.js
