@@ -33,7 +33,7 @@
     "biojs-io-clustal": "0.x",
     "biojs-io-fasta": "0.x",
     "biojs-io-gff": "0.x",
-    "biojs-model": "^0.0.2",
+    "biojs-model": "^0.0.5",
     "biojs-vis-seqlogo": "^0.0.11",
     "blueimp_canvastoblob": "^1.0.0",
     "browser-saveas": "^1.0.0",
