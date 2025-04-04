@@ -46,7 +46,7 @@
     "msa-seqtools": "^0.1.8",
     "stat.seqs": "^0.1.20",
     "underscore": "^1.6.0",
-    "xhr": "^1.17.0"
+    "xhr": "^2.6.0"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
