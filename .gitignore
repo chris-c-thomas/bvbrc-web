@@ -73,6 +73,7 @@ ecosystem.config.js
 
 # editor & ide
 .vscode/
+*.code-workspace
 .idea/
 .zed/
 .fleet/
