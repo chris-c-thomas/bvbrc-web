@@ -71,17 +71,23 @@ p3-web.*.conf
 # pm2
 ecosystem.config.js
 
-# editor & ide
+# editors, ide, terminals, ai, etc
+# often be handled by excludes instead
 .vscode/
 *.code-workspace
+!maage-web.code-workspace
 .idea/
 .zed/
 .fleet/
 *.swp
-*.sublime-workspace
-*.sublime-project
-.qodo
+.project
+.warp
 CLAUDE.md
+CLAUDE.local.md
+.augment-guidelines
+.qodo
+.claude/
+claude/
 
 
 ## OS specific-ish
